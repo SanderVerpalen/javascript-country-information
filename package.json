@@ -1,18 +1,29 @@
 {
   "name": "frontend-javascript-country-information-world-regions",
   "version": "1.0.0",
-  "description": "",
+  "description": "Je vrienden hebben er inmiddels lucht van gekregen dat je kunt programmeren en sindsdien wordt je low key gestalkt met\r verzoekjes om webapplicaties te bouwen. Je vriend Constantijn wil heel graag dat je een applicatie voor hem maakt die\r feitjes over landen kan ophalen, zodat hij cool kan doen met zijn wereldse kennis op borrels en verjaardagen.",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.0.0",
-    "parcel-plugin-nuke-dist": "^1.0.1"
-  }
+    "buffer": "^6.0.3",
+    "parcel": "^2.5.0",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanderVerpalen/javascript-country-information.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanderVerpalen/javascript-country-information/issues"
+  },
+  "homepage": "https://github.com/SanderVerpalen/javascript-country-information#readme"
 }
