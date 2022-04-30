@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+}
+
+ul {
+  column-count: 3;
+  list-style-type: none;
+}
+
+li {
+  break-inside: avoid-column;
+}
+
+#flag {
+  max-height: 40px;
+  max-width: 80px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
